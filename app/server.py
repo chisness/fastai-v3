@@ -12,7 +12,7 @@ from fastai.vision import *
 export_file_url = 'https://www.dropbox.com/s/n37uk4utsuytwh9/export.pkl?dl=1'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['reddelicious','fuji','gala','goldendelicious','mcintosh','grannysmith']
 path = Path(__file__).parent
 
 app = Starlette()
